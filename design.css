@@ -1,0 +1,130 @@
+*{
+	box-sizing:border-box;
+}
+.length1-3{
+	width:33%;
+	display:inline-block;
+	padding:5px;
+}
+.container{
+	width:100%;
+	display:inline-block;
+	border-bottom:2px black solid;
+	
+}
+.length2-3{
+	width:66%;
+	display:inline-block;
+	padding:5px;
+}
+.length3-3{
+	width:100%;
+	display:inline-block;
+	padding:5px;
+
+}
+header ul{
+	margin:0px;
+}
+header ul li{
+	float:right;
+	padding:5px;
+	margin:8px;
+	font-size:19px;
+	font-weight:bold;
+	font-family:arial;
+	border:2px white dashed;
+}
+
+header ul li:hover{
+	background-color:lightblue;
+	color:white;
+	text-decoration:none;
+	border-color:white;
+}
+header h1{
+	font-family:calibri;
+	overflow:hidden;
+}
+header{
+	background: url('surf.jpg');
+	border-bottom:2px black solid;
+	color:white;
+	padding:5px;
+}
+
+body{
+	margin:auto;
+	padding:0px;
+	max-width:1000px;
+}
+
+section{
+	padding:5px;
+	background: url('water.jpg');
+	font-style:monospace;
+	background-size:cover;
+	color:white;
+	font-family:calibri;
+}
+
+section ul li{
+	margin-bottom:15px;
+	font-size:19px;
+}
+article{
+
+	padding:5px;
+	background: url('city.jpg');
+	background-size:cover;
+	min-height:400px;
+	border-bottom:2px black solid;
+}
+.left-border{
+	border-left:3px white solid;
+}
+.heading{
+	margin-top:75px;
+	border:0px;
+	color:white;
+	font-family:arial;
+}
+.heading p{
+	font-weight:600;
+	font-size:24px;
+}
+
+.heading h1{
+	font-size:32px;
+}
+footer{
+	text-align:center;
+	color:white;
+	background-color:gray;
+	margin-top:0px;
+}
+
+aside{
+	padding:5px;
+	background-color:gray;
+	font-family:calibri;
+	background: url('desert.jpg');
+	background-size:cover;
+}
+
+aside img{
+	width:100%;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;
+	border:4px white solid;
+	border-radius:5px;
+}
+
+aside h4{
+	text-align:center;
+	font-size:20px;
+}
+.container2{
+	width:100%;
+}
